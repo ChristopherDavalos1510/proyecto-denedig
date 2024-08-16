@@ -1,0 +1,14 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+}
+#video {
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    width: 100;
+    margin: 5%;
+    grid-gap: 50px;
+}
